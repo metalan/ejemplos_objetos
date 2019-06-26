@@ -1,4 +1,4 @@
-from clases import *
+from ej1.clases import *
 
 num = input("Introduce un número entero: ")
 numero = Romano()
