@@ -42,3 +42,9 @@ class NuevoObjeto(Objeto):
     pie = Pie()
     def saltar(self):
         print(21)
+
+class Maquinas(object):
+    maquina = 5
+
+    def maquinas(self):
+        self.maquina += 1
