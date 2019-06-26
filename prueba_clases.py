@@ -30,7 +30,13 @@ class Dedo(object):
 class Pie(object):
     forma = ""
     color = ""
-    dedos = Dedo()
+    dedos = 5
+
+    def amputar(self):
+        if self.dedos == 0:
+            return "No hay dedos que cortar"
+        self.dedos = self.dedos - 1
+        return self.dedos
 
 class NuevoObjeto(Objeto):
     pie = Pie()
