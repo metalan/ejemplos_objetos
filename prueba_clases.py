@@ -1,19 +1,17 @@
-class Antena():
+class Antena(object):
     color = ""
     longitud = ""
 
-
-class Pelo():
+class Pelo(object):
     color = ""
     textura = ""
 
-
-class Ojo():
+class Ojo(object):
     forma = ""
     color = ""
     tamanio = ""
 
-class Objeto():
+class Objeto(object):
     color = ""
     tamanio = ""
     aspecto = ""
@@ -22,6 +20,19 @@ class Objeto():
     pelos = Pelo()
 
     def flotar(self):
-        print("No me ahogo")
+        print(12)
 
-    
+class Dedo(object):
+    longitud = ""
+    forma = ""
+    color = ""
+
+class Pie(object):
+    forma = ""
+    color = ""
+    dedos = Dedo()
+
+class NuevoObjeto(Objeto):
+    pie = Pie()
+    def saltar(self):
+        print(21)
