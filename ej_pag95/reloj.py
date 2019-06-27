@@ -22,9 +22,9 @@ class Reloj(object):
         return str(self.__horas) + ":" + str(self.__minutos) + ":" + str(self.__segundos)
 
     def set_hora(self, hh, mm, ss):
-        if str(hh).isdigit() and 0 < int(hh) < 24:
-            if str(mm).isdigit() and 0 < int(mm) < 60:
-                if str(ss).isdigit() and 0 < int(ss) < 60:
+        if str(hh).isdigit() and 0 <= int(hh) < 24:
+            if str(mm).isdigit() and 0 <= int(mm) < 60:
+                if str(ss).isdigit() and 0 <= int(ss) < 60:
                     self.__horas = int(hh)
                     self.__minutos = int(mm)
                     self.__segundos = int(ss)
