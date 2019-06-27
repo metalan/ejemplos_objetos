@@ -34,6 +34,8 @@ class Romano(object):
         if self.__romanos.get(int(self.original)) == "None":
             self.__convertidos = list(self.original)
             self.__convertidos.reverse()
+            for c in self.__convertidos:
+                pass
 
         else:
             print(self.__romanos.get(int(self.original)))
