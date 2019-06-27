@@ -1,4 +1,6 @@
 from prueba_clases import *
+from empleado import *
+from factura import *
 
 # et = Objeto()
 # print(et.color)
@@ -36,3 +38,14 @@ maquinas.maquinas()
 maquinas.maquinas()
 
 print("Maquinas:", maquinas.maquina)
+
+empleado1 = Empleado("Fancisco", 30000)
+print(empleado1.getnombre())
+empleado1.setnombre("Francisco jose")
+print(empleado1.setnombre(), ",", empleado1.getsalario())
+
+compra1 = Factura(12,110)
+print(compra1.unidad)
+print(compra1.precio)
+print(compra1.a_pagar(),"euros")
+print(Factura._tasas)
