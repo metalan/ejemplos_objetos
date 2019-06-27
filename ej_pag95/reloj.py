@@ -33,4 +33,3 @@ class Reloj(object):
 
     def __init__(self, hh=0, mm=0, ss=0):
         self.set_hora(hh, mm, ss)
-
