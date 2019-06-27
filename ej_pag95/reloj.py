@@ -21,10 +21,14 @@ class Reloj(object):
     def dame_hora(self):
         return str(self.__horas) + ":" + str(self.__minutos) + ":" + str(self.__segundos)
 
-    def __init__(self, hh, mm, ss):
-        if hh.isdigit() and int(hh) < 24:
-            self.__horas = hh
-        if hh.isdigit() and int(mm) < 60:
-            self.__minutos = mm
-        if hh.isdigit() and int(ss) < 60:
-            self.__segundos = ss
+    def set_hora(self, hh, mm, ss):
+        if str(hh).isdigit() and 0 < int(hh) < 24:
+            self.__horas = int(hh)
+        if str(mm).isdigit() and 0 < int(mm) < 60:
+            self.__minutos = int(mm)
+        if str(ss).isdigit() and 0 < int(ss) < 60:
+            self.__segundos = int(ss)
+
+    def __init__(self, hh=0, mm=0, ss=0):
+        self.set_hora(hh, mm, ss)
+
