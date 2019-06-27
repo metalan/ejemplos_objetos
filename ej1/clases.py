@@ -21,14 +21,17 @@ class Romano(object):
         self.original = str(numero)
         if int(self.original) <= 1000:
             self.__conversion_romana()
-            print(str(self.__convertidos))
+            # print(str(self.__convertidos))
         else:
             print("El límite es mil (1000)")
 
-    def __sustitucion_romana(self):  # Privado
+    def __sustitucion_romana(self):  # Privado Sustituye
         self.__adaptados = list(self.original)
         for x in range(0, len(self.__adaptados)):
             self.__adaptados[x] = self.__romanos2[int(self.__adaptados[x])]
 
-    def __conversion_romana(self):  # Privado
-        pass
+    def __conversion_romana(self):  # Privado Convierte
+        if self.__romanos.get(int(self.original)) == "None":
+            pass
+        else:
+            print(self.__romanos.get(int(self.original)))
