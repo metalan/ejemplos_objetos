@@ -32,6 +32,8 @@ class Romano(object):
 
     def __conversion_romana(self):  # Privado Convierte
         if self.__romanos.get(int(self.original)) == "None":
-            pass
+            self.__convertidos = list(self.original)
+            self.__convertidos.reverse()
+
         else:
             print(self.__romanos.get(int(self.original)))
