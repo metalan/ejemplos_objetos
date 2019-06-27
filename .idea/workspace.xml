@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb899bb-6499-46cd-9a2e-a5ab4fa756fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ej_pag95/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ej_pag95/principal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ej_pag95/reloj.py" beforeDir="false" afterPath="$PROJECT_DIR$/ej_pag95/reloj.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ej_pag95/reloj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="401">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -387,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ej_pag95/reloj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="401">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>

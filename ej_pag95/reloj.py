@@ -23,11 +23,13 @@ class Reloj(object):
 
     def set_hora(self, hh, mm, ss):
         if str(hh).isdigit() and 0 < int(hh) < 24:
-            self.__horas = int(hh)
-        if str(mm).isdigit() and 0 < int(mm) < 60:
-            self.__minutos = int(mm)
-        if str(ss).isdigit() and 0 < int(ss) < 60:
-            self.__segundos = int(ss)
+            if str(mm).isdigit() and 0 < int(mm) < 60:
+                if str(ss).isdigit() and 0 < int(ss) < 60:
+                    self.__horas = int(hh)
+                    self.__minutos = int(mm)
+                    self.__segundos = int(ss)
+                    return True
+        return "Hora incorrecta"
 
     def __init__(self, hh=0, mm=0, ss=0):
         self.set_hora(hh, mm, ss)
