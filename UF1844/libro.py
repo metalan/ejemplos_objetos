@@ -7,13 +7,16 @@ class Libro(object):
     __autor = 0
 
     def __init__(self, isbn, titulo, autor):
-        pass
+        self.set_isbn(isbn)
+        self.set_titulo(titulo)
+        self.set_autor(autor)
 
     def get_isbn(self):
         return self.__isbn
 
     def set_isbn(self, isbn):
-        pass
+        if self.check_isbn(isbn):
+            self.__isbn = isbn
 
     def get_titulo(self):
         return self.__titulo
@@ -61,7 +64,7 @@ class Libro(object):
                     else:
                         suma += lista[posicion] * 3
                 control = str(suma % 10)
-                if lista[len(lista)] == control
+                if lista[len(lista)] == control:
                     return True
                 else:
                     return False
