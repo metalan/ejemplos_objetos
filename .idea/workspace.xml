@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb899bb-6499-46cd-9a2e-a5ab4fa756fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ej_pag95/Parentesis_ej3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ejemplos_objetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejemplos_objetos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ej1/Parentesis_ej3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ej1/Parentesis_ej3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ej1/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ej1/principal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +14,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ej_pag95/Parentesis_ej3.py">
+        <entry file="file://$PROJECT_DIR$/ej1/Parentesis_ej3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ej1/principal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ej_pag95/reloj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -40,7 +59,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/prueba_clases.py" />
-        <option value="$PROJECT_DIR$/ej1/principal.py" />
         <option value="$PROJECT_DIR$/ej1/clases.py" />
         <option value="$PROJECT_DIR$/ej1/idea.txt" />
         <option value="$PROJECT_DIR$/ej1/romanos.py" />
@@ -56,6 +74,8 @@
         <option value="$PROJECT_DIR$/UF1844/autor.py" />
         <option value="$PROJECT_DIR$/UF1844/principal.py" />
         <option value="$PROJECT_DIR$/ej_pag95/Parentesis_ej3.py" />
+        <option value="$PROJECT_DIR$/ej1/principal.py" />
+        <option value="$PROJECT_DIR$/ej1/Parentesis_ej3.py" />
       </list>
     </option>
   </component>
@@ -104,6 +124,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alumno-mañana\Music\github\ejemplos_objetos\ej1" />
       <recent name="C:\Users\alumno-mañana\Music\github\ejemplos_objetos" />
     </key>
   </component>
@@ -238,7 +259,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16295707" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16295707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,24 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ej_pag95/principal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#21#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UF1844/vladimir_UF1844.py" />
-    <entry file="file://$PROJECT_DIR$/ej1/principal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ej1/romanos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -394,24 +398,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ej_pag95/reloj.py">
+    <entry file="file://$PROJECT_DIR$/ej_pag95/principal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#21#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ej_pag95/persona.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
+        <state relative-caret-position="643">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ej_pag95/Parentesis_ej3.py">
+    <entry file="file://$PROJECT_DIR$/ej_pag95/reloj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ej1/principal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ej1/Parentesis_ej3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
