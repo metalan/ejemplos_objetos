@@ -8,9 +8,36 @@ y "{{{" son inválidos.
 """
 
 class Parentesis(object):
-    cont_parentesis = 0
-    cont_llaves = 0
-    cont_corchetes = 0
+    def comprobar_parentesis(self, original):
+        cont_parentesis = 0
+        cont_llaves = 0
+        cont_corchetes = 0
+        comprobar = list(original)
 
-    def __init__(self):
-        print("Vamos a comprobar paréntesis")
+        for check in comprobar:
+            if check == "(":
+                cont_parentesis += 1
+            if check == ")":
+                if cont_parentesis > 0:
+                    cont_parentesis -= 1
+                else:
+                    return False
+            if check == "{":
+                cont_llaves += 1
+            if check == "}":
+                if cont_llaves > 0:
+                    cont_llaves -= 1
+                else:
+                    return False
+            if check == "[":
+                cont_corchetes += 1
+            if check == "]":
+                if cont_corchetes > 0:
+                    cont_corchetes -= 1
+                else:
+                    return False
+
+        if cont_parentesis == 0 and cont_llaves == 0 and cont_corchetes == 0:
+            return True
+        else:
+            return False
