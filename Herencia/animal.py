@@ -5,7 +5,7 @@ class Animal(object):
     __peso = 0
 
     def comer(self):
-        return None
+        return "Me gusta comer"
 
     def set_peso(self, peso):
         if str(peso).isdigit():

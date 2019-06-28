@@ -6,4 +6,7 @@ class Perro(Mamifero):
     colorPelo = ""
 
     def ladrar(self):
-        return None
+        return "Me gusta ladrar"
+
+    def correr(self):
+        return "Me gusta correr"

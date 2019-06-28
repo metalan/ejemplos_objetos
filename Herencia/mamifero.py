@@ -6,7 +6,7 @@ class Mamifero(Animal):
     sangrecaliente = True
 
     def parir(self):
-        return None
+        return "Puedo parir"
 
     def amamantar(self):
-        return None
+        return "Puedo amamantar"

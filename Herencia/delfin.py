@@ -4,4 +4,7 @@ from Herencia.mamifero import *
 
 class Delfin(Mamifero):
     def nadar(self):
-        return None
+        return "Me gusta nadar"
+
+    def usar_pinguinos(self):
+        return "OWL YEAH!"

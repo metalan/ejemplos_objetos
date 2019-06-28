@@ -4,4 +4,4 @@ from Herencia.animal import *
 
 class Oviparo(Animal):
     def ponerHuevos(self):
-        return None
+        return "Pongo huevos"
