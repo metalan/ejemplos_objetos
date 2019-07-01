@@ -38,5 +38,14 @@ class Autor(object):
     def get_nacimiento(self):
         return self.nacimiento
 
-    def set_nacimiento(self, nacimiento):
-        pass
+    def set_nacimiento(self, year, month, day):
+        ahora = datetime.datetime.now()
+        fecha = date()
+        if str(year).isdigit() and int(year) > 0:
+            if str(month).isdigit() and 1 < int(month) <= 12:
+                if str(day).isdigit() and 1 < int(day) <= 31:
+                    fecha = date(int(year), int(month), int(day))
+                    if fecha < ahora:
+                        self.nacimiento = fecha
+                        return True
+        return False
