@@ -24,7 +24,7 @@ class Alumno(object):
 
     def set_nota(self, score):
         if str(score).isdigit() and 0 <= int(score) <= 20:
-            self.nota = score
+            self.nota = int(score)
 
     def aprobado(self):
         texto = "El alumno está "
