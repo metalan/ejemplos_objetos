@@ -2,8 +2,8 @@
 
 
 class Libro(object):
-    __isbn = ""
-    __titulo = ""
+    __isbn = "7854123691"
+    __titulo = "Título vacío"
     __autor = 0
 
     def __init__(self, isbn, titulo, autor):
@@ -17,12 +17,14 @@ class Libro(object):
     def set_isbn(self, isbn):
         if self.check_isbn(isbn):
             self.__isbn = isbn
+        else:
+            print("ISBN incorrecto, usando ISBN por defecto.")
 
     def get_titulo(self):
         return self.__titulo
 
     def set_titulo(self, titulo):
-        if titulo != "" and str(titulo).isalnum():
+        if titulo != "":
             self.__titulo = titulo
         else:
             print("Título no valido")
@@ -37,34 +39,33 @@ class Libro(object):
             print("Autor no valido")
 
     def check_isbn(self, isbn):
-        if len(isbn) == 10 or len(isbn) == 13:
+        if len(str(isbn)) == 10 or len(str(isbn)) == 13:
             lista = list(str(isbn))
-            if len(isbn) == 10:
+            control_isbn = list(str(isbn))[len(str(isbn))-1]
+            if len(str(isbn)) == 10:
                 isbn10 = True
-                lista.insert(0, "0")
-                lista.reverse()
             else:
                 isbn10 = False
             suma = 0
             control = ""
             if isbn10:
-                for posicion in range(len(lista) - 1):
-                    suma += int(lista[posicion]) * posicion
+                for posicion in range(1, 10):
+                    suma += int(lista[posicion-1]) * posicion
                 control = str(suma % 11)
                 if control == "10":
                     control = "X"
-                if lista[0] == control:
+                if control_isbn == control:
                     return True
                 else:
                     return False
-            else:
-                for posicion in range(len(lista) - 1):
+            else:  # TODO Arreglar esta comprobación
+                for posicion in range(0, 13):
                     if posicion % 2 == 0:
-                        suma += lista[posicion]
+                        suma += int(lista[posicion])
                     else:
-                        suma += lista[posicion] * 3
-                control = str(suma % 10)
-                if lista[len(lista)] == control:
+                        suma += int(lista[posicion] * 3)
+                control = str((10 - suma) % 10)
+                if control_isbn == control:
                     return True
                 else:
                     return False

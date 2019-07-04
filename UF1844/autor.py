@@ -21,7 +21,7 @@ class Autor(object):
         return self.apellidos
 
     def set_apellidos(self, apellido):
-        if apellido != "" and str(apellido).isalpha():
+        if apellido != "":
             self.apellidos = apellido
         else:
             print("Apellido no valido")
@@ -29,9 +29,9 @@ class Autor(object):
     def get_identificador(self):
         return self.identificador
 
-    def set_identificador(self, id):
-        if id != 0 and str(id).isdigit():
-            self.identificador = id
+    def set_identificador(self, carnet):
+        if id != 0 and str(carnet).isdigit():
+            self.identificador = carnet
         else:
             print("Identificador no valido")
 
@@ -39,8 +39,8 @@ class Autor(object):
         return self.nacimiento
 
     def set_nacimiento(self, year, month, day):
-        ahora = datetime.datetime.now()
-        fecha = date()
+        ahora = date(datetime.now().year, datetime.now().month, datetime.now().day)
+        fecha = date(1970, 1, 1)
         if str(year).isdigit() and int(year) > 0:
             if str(month).isdigit() and 1 < int(month) <= 12:
                 if str(day).isdigit() and 1 < int(day) <= 31:
