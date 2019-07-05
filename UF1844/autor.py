@@ -12,6 +12,9 @@ class Autor(object):
     identificador = 0
     nacimiento = date(1970, 1, 1)
 
+    def __init__(self):
+        self.set_nacimiento(self.nacimiento.year, self.nacimiento.month, self.nacimiento.day)
+
     def get_nombre(self):
         return self.nombre
 
@@ -55,6 +58,7 @@ class Autor(object):
                     if fecha < ahora:
                         self.nacimiento = fecha
                         return True
+        print("Fecha de nacimiento no válida")
         return False
 
     def input_set_autor(self):

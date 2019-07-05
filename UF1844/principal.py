@@ -42,3 +42,5 @@ class Principal(Libro, Autor):
             else:
                 pepe.input_set_autor()
                 pepe.get_all()
+                if input("¿Quieres volver a empezar?:(s = Si)") != "s":
+                    seguir = False
