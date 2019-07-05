@@ -2,6 +2,10 @@
 
 
 class Libro(object):
+    """
+    En esta clase usaremos los sets y gets para manejar los datos de Libros ya que son privados
+    Los sets comprueban siempre la validez de los datos
+    """
     __isbn = "7854123691"
     __titulo = "Título vacío"
     __autor = 0
@@ -40,7 +44,7 @@ class Libro(object):
 
     def check_isbn(self, isbn):
         """
-        TODO Mejorar el código usando multiplicación de conjuntos:
+        FIXME Mejorar el código usando multiplicación de conjuntos:
         import operator
         lista = list(map(operator.mul, lista1, lista2))
         :param isbn:
@@ -83,3 +87,21 @@ class Libro(object):
                     return False
         else:
             return False
+
+    def input_set_libro(self):
+        """
+        Esta función pide todos los datos al usuario
+        :return: none
+        """
+        print("Datos del libro:")
+        self.set_autor(input("Pon un autor:(numerico)"))
+        self.set_isbn(input("Pon un isbn:(10 o 13)"))
+        self.set_titulo(input("Pon un título:(alfanumérico)"))
+
+    def get_all(self):
+        """
+        Esta función devuelve una cadena de texto con todos los datos del libro
+        :return: str
+        """
+        return "Datos del libro:\nISBN: " + self.get_isbn() + "\nTITULO: " + self.get_titulo() + "\nAUTOR: " + str(
+            self.get_autor())

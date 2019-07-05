@@ -3,6 +3,10 @@ from datetime import *
 
 
 class Autor(object):
+    """
+    Los datos se manejan usando los gets y sets aunque las propiedades son públicas
+    Los sets comprueban siempre la validez de los datos
+    """
     nombre = ""
     apellidos = ""
     identificador = 0
@@ -39,6 +43,9 @@ class Autor(object):
         return self.nacimiento
 
     def set_nacimiento(self, year, month, day):
+        # TODO Comprobar los días por meses
+        # TODO Comprobar días de febrero
+        # TODO Comprobar bisiestos
         ahora = date(datetime.now().year, datetime.now().month, datetime.now().day)
         fecha = date(1970, 1, 1)
         if str(year).isdigit() and int(year) > 0:
@@ -49,3 +56,22 @@ class Autor(object):
                         self.nacimiento = fecha
                         return True
         return False
+
+    def input_set_autor(self):
+        """
+        Esta función pide todos los datos al usuario
+        :return: none
+        """
+        print("Datos del autor:")
+        self.set_nombre(input("Pon un nombre:(alfanumérico)"))
+        self.set_apellidos(input("Pon los apellidos:(alfanumérico)"))
+        self.set_identificador(input("Pon el identificador:(numérico)"))
+        print("Fecha de nacimiento:(todos numéricos)")
+        self.set_nacimiento(input("Año:"), input("Mes:"), input("Día:"))
+
+    def get_all(self):
+        """
+        Esta función devuelve una cadena de texto con todos los datos del libro
+        :return: str
+        """
+        return "Datos del autor:\nNombre: " + self.get_nombre() + "\nApellidos: " + self.get_apellidos() + "\nIdentificador: " + str(self.get_identificador()) + "\nNacimiento: " + str(self.get_nacimiento())

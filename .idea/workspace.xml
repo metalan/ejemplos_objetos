@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb899bb-6499-46cd-9a2e-a5ab4fa756fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UF1844/ExecMe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ejemplos_objetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejemplos_objetos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UF1844/autor.py" beforeDir="false" afterPath="$PROJECT_DIR$/UF1844/autor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UF1844/libro.py" beforeDir="false" afterPath="$PROJECT_DIR$/UF1844/libro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UF1844/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/UF1844/principal.py" afterDir="false" />
     </list>
@@ -13,7 +17,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UF1844/ExecMe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UF1844/principal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#21#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UF1844/autor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UF1844/libro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,16 +102,17 @@
         <option value="$PROJECT_DIR$/ej_obj_her/PlazoFijo.py" />
         <option value="$PROJECT_DIR$/ej_obj_her/pruebas.py" />
         <option value="$PROJECT_DIR$/ej_obj_her/alumno_ej1.py" />
-        <option value="$PROJECT_DIR$/UF1844/autor.py" />
         <option value="$PROJECT_DIR$/UF1844/libro.py" />
+        <option value="$PROJECT_DIR$/UF1844/autor.py" />
         <option value="$PROJECT_DIR$/UF1844/principal.py" />
+        <option value="$PROJECT_DIR$/UF1844/ExecMe.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="654" />
-    <option name="height" value="991" />
+    <option name="x" value="-8" />
+    <option name="width" value="655" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -83,16 +128,6 @@
             <path>
               <item name="ejemplos_objetos" type="b2602c69:ProjectViewProjectNode" />
               <item name="ejemplos_objetos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ejemplos_objetos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ejemplos_objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="ej_obj_her" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ejemplos_objetos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ejemplos_objetos" type="462c0819:PsiDirectoryNode" />
-              <item name="Herencia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ejemplos_objetos" type="b2602c69:ProjectViewProjectNode" />
@@ -281,14 +316,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13869694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,7 +332,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995064" weight="0.32964823" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004936" side_tool="true" weight="0.32964823" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.37139562" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.37085426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,20 +529,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/locallibrary/locallibrary/locallibrary/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/locallibrary/locallibrary/locallibrary/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/locallibrary/locallibrary/locallibrary/settings.py" />
+    <entry file="file://$USER_HOME$/Documents/locallibrary/locallibrary/locallibrary/urls.py" />
     <entry file="file://$PROJECT_DIR$/ej_obj_her/CajaAhorro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -535,13 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/locallibrary/locallibrary/catalog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/locallibrary/locallibrary/catalog/models.py" />
     <entry file="file://$PROJECT_DIR$/ej_obj_her/PlazoFijo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -550,13 +568,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/ValidateISBNCode.py" />
-    <entry file="file://$PROJECT_DIR$/UF1844/autor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ej1/idea.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -564,20 +575,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UF1844/autor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UF1844/libro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UF1844/principal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="797">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#21#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UF1844/libro.py">
+    <entry file="file://$PROJECT_DIR$/UF1844/ExecMe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

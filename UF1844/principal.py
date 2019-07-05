@@ -4,6 +4,10 @@ from UF1844.autor import *
 
 
 class Principal(Libro, Autor):
+    """
+    Usamos la clase Principal para testear todas las funciones de las clases Autor y Libro
+    Para evitar problemas, la función init de Principal redefine las heredadas
+    """
 
     def __init__(self):
         pass
@@ -15,34 +19,26 @@ class Principal(Libro, Autor):
         pepe.set_apellidos("Pérez Guitierrez")
         pepe.set_identificador(151515)
         pepe.set_nacimiento(1990, 12, 15)
-        print("Datos del autor:")
-        print("Nombre: ", pepe.get_nombre())
-        print("Apellidos: ", pepe.get_apellidos())
-        print("Identificador: ", pepe.get_identificador())
-        print("Nacimiento: ", pepe.get_nacimiento())
+        print(pepe.get_all())
 
         carniboro = Libro("840102241X", "Largo pétalo de mar", 151515)
-        print("Datos del libro:")
-        print("Autor: ", carniboro.get_autor())
-        print("ISBN: ", carniboro.get_isbn())
-        print("Título: ", carniboro.get_titulo())
+        print(carniboro.get_all())
 
         carniboro.set_autor(1489757278755348919864622635181157)
         carniboro.set_titulo("El amante japonés")
         carniboro.set_isbn("9781101971642")
         carniboro.check_isbn(1515151515)
-        print("Datos del libro:")
-        print("Autor: ", carniboro.get_autor())
-        print("ISBN: ", carniboro.get_isbn())
-        print("Título: ", carniboro.get_titulo())
+        print(carniboro.get_all())
 
         print("Comienzo de la sección manual:")
         seguir = True
         while seguir:
-            print("Datos del libro:")
-
-        carniboro.set_isbn(input("Pon un isbn:"))
-
-
-llamador = Principal()
-llamador.main()
+            carniboro.input_set_libro()
+            carniboro.get_all()
+            if input("¿Quieres seguir?:(s = Si)") != "s":
+                seguir = False
+            if not seguir:
+                break
+            else:
+                pepe.input_set_autor()
+                pepe.get_all()
