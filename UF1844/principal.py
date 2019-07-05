@@ -5,6 +5,9 @@ from UF1844.autor import *
 
 class Principal(Libro, Autor):
 
+    def __init__(self):
+        pass
+
     def main(self):
         pepe = Autor()
         pepe.set_nombre("Antonio")
@@ -33,5 +36,5 @@ class Principal(Libro, Autor):
         print("Título: ", carniboro.get_titulo())
 
 
-llamador = Principal("840102241X", "Largo pétalo de mar", 151515)
+llamador = Principal()
 llamador.main()
