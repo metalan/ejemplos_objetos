@@ -18,7 +18,7 @@ class Libro(object):
         if self.check_isbn(isbn):
             self.__isbn = isbn
         else:
-            print("ISBN incorrecto, usando ISBN por defecto.")
+            print("ISBN", isbn, "incorrecto, usando ISBN por defecto.")
 
     def get_titulo(self):
         return self.__titulo
@@ -39,6 +39,13 @@ class Libro(object):
             print("Autor no valido")
 
     def check_isbn(self, isbn):
+        """
+        TODO Mejorar el código usando multiplicación de conjuntos:
+        import operator
+        lista = list(map(operator.mul, lista1, lista2))
+        :param isbn:
+        :return:
+        """
         if len(str(isbn)) == 10 or len(str(isbn)) == 13:
             lista = list(str(isbn))
             control_isbn = list(str(isbn))[len(str(isbn))-1]
@@ -59,12 +66,17 @@ class Libro(object):
                 else:
                     return False
             else:  # TODO Arreglar esta comprobación
-                for posicion in range(0, 13):
+                for posicion in range(0, 12):
                     if posicion % 2 == 0:
                         suma += int(lista[posicion])
                     else:
-                        suma += int(lista[posicion] * 3)
+                        suma += int(lista[posicion]) * 3
                 control = str((10 - suma) % 10)
+                # resto = (10 - suma) % 10
+                # if resto == 0:
+                #     control = str(resto)
+                # else:
+                #     control = str(10 - resto)
                 if control_isbn == control:
                     return True
                 else:

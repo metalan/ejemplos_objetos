@@ -9,6 +9,7 @@ class Principal(Libro, Autor):
         pass
 
     def main(self):
+        print("Comienzo de la sección automática:\n")
         pepe = Autor()
         pepe.set_nombre("Antonio")
         pepe.set_apellidos("Pérez Guitierrez")
@@ -34,6 +35,13 @@ class Principal(Libro, Autor):
         print("Autor: ", carniboro.get_autor())
         print("ISBN: ", carniboro.get_isbn())
         print("Título: ", carniboro.get_titulo())
+
+        print("Comienzo de la sección manual:")
+        seguir = True
+        while seguir:
+            print("Datos del libro:")
+
+        carniboro.set_isbn(input("Pon un isbn:"))
 
 
 llamador = Principal()
