@@ -47,8 +47,8 @@ class Libro(object):
         FIXME Mejorar el código usando multiplicación de conjuntos:
         import operator
         lista = list(map(operator.mul, lista1, lista2))
-        :param isbn:
-        :return:
+        :param isbn: str
+        :return: bool
         """
         if len(str(isbn)) == 10 or len(str(isbn)) == 13:
             lista = list(str(isbn))
@@ -69,7 +69,7 @@ class Libro(object):
                     return True
                 else:
                     return False
-            else:  # TODO Arreglar esta comprobación
+            else:
                 for posicion in range(0, 12):
                     if posicion % 2 == 0:
                         suma += int(lista[posicion])
