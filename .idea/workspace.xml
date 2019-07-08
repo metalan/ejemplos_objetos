@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cb899bb-6499-46cd-9a2e-a5ab4fa756fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ejemplos_objetos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejemplos_objetos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UF1844/libro.py" beforeDir="false" afterPath="$PROJECT_DIR$/UF1844/libro.py" afterDir="false" />
-    </list>
+    <list default="true" id="4cb899bb-6499-46cd-9a2e-a5ab4fa756fe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="655" />
     <option name="height" value="992" />
@@ -311,8 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13831478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
